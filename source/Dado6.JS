@@ -1,4 +1,8 @@
-function tirarDado() {
+/** Funcion que simula una tirada de dados de 6 caras
+ * 
+ * @return Dado
+ */
+export default function tirarDado() {
     return Math.floor(Math.random() * 6) + 1;
   }
   
